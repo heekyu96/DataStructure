@@ -9,6 +9,7 @@ TreeNode::TreeNode(int data) : data(data) {
     right= nullptr;
 }
 
+
 TreeNode *TreeNode::getLeft() const {
     return left;
 }
