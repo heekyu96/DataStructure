@@ -1,10 +1,10 @@
 #include <iostream>
-#include "BinaryTree.h"
+#include "BinaryTreeRecursive.h"
 
 using namespace std;
 
 int main() {
-    BinaryTree binaryTree;
+    BinaryTreeRecursive binaryTree;
 
     binaryTree.makeTree();
 
@@ -12,5 +12,6 @@ int main() {
     binaryTree.postOrder();
     binaryTree.inOrder();
     binaryTree.levelOrder();
+
     return 0;
 }
